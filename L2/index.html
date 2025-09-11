@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+    }
+  </style>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Заметки</h2>
+
+      <!-- Поле ввода -->
+      <input type="text" class="form-control mb-2" placeholder="Введите название" id="title">
+      <button class="btn btn-outline-info w-100 mb-2" id="create">Добавить</button>
+
+      <!-- Список заметок -->
+      <ul class="list-group list-group-flush" id="list">
+        <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>Название</span>
+          <span>
+            <button class="btn btn-sm btn-success me-1">&check;</button>
+            <button class="btn btn-sm btn-danger">&times;</button>
+          </span>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
